@@ -34,6 +34,14 @@
   }
 }
 
+/*===== Hyperlink =====*/
+
+.bright-text {
+  color: #1781EB ; /* Bright color (gold) */
+  font-weight: bold; /* Bold text */
+  text-decoration: underline; /* Underlined text */
+}
+
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
@@ -209,8 +217,8 @@ img {
 }
 .home__img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -20px;
+  top: 120px;
   width: 260px;
 }
 .home__blob {
@@ -305,6 +313,38 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
+/* ======== PROJECTS =====*/
+.projects__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project .work__img {
+  flex: 0 0 50%; /* Ensures the image takes up half of the row */
+  max-width: 50%; /* Ensures the image takes up half of the row */
+}
+
+.project__text {
+  flex: 1; /* Allows the text to take up the remaining space */
+  max-width: 50%; /* Ensures the text does not exceed half of the row */
+}
+
+.project__text h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.project__text p {
+  margin: 0;
+}
+
 
 /* ===== WORK =====*/
 .work__container {
@@ -321,6 +361,46 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+/* ===== CV =====*/	
+/* Add this to your existing CSS file */
+
+/* Add this to your existing CSS file */
+.cv__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* Add some spacing between the image and the button */
+}
+
+.cv__image-container {
+  max-width: 50%; /* Adjust as needed */
+}
+
+.cv__image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem; /* Optional: Add some rounding to the image corners */
+}
+
+.cv__button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--first-color);
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.cv__button:hover {
+  background-color: var(--first-color-alt);
+}
+
+
+
 
 /* ===== CONTACT =====*/
 .contact__input {
