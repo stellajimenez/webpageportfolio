@@ -249,7 +249,24 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+/*==================== VIDEOS ====================*/
+.videos__container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
 
+.video__item iframe {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive: dos columnas en pantallas medianas */
+@media screen and (min-width: 768px) {
+  .videos__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
