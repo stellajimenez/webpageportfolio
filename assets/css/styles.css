@@ -93,7 +93,7 @@ img {
 
 .subsection-title {
   position: relative;
-  font-size: var(--normal-font-size);
+  font-size: var(--h2-font-size);
   color: var(--second-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
