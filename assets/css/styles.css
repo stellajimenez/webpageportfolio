@@ -91,6 +91,16 @@ img {
   background-color: var(--first-color);
 }
 
+.subsection-title {
+  position: relative;
+  font-size: var(--normal-font-size);
+  color: var(--second-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
