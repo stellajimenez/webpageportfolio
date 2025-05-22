@@ -499,7 +499,8 @@ img {
   gap: 2rem;
   grid-template-columns: 1fr;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
+  padding: 2rem;
 }
 
 .video__item iframe {
