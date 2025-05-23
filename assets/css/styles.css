@@ -389,6 +389,12 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+footer__text {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
