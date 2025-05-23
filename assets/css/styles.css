@@ -16,6 +16,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
+  --detail-font-size: .40rem;
   /*===== Margenes =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
@@ -31,6 +32,7 @@
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
+    --detail-font-size: .675rem;
   }
 }
 
@@ -392,7 +394,7 @@ img {
 footer__text {
   font-size: var(--smaller-font-size);
   color: var(--first-color);
-  margin-bottom: var(--mb-2);
+  font-style: italic;
 }
 
 /* ===== MEDIA QUERIES=====*/
