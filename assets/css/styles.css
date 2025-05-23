@@ -551,13 +551,13 @@ img {
 }
 
 .services__title {
-  font-size: var(--h2-font-size);
+  font-size: var(--body-font);
   color: var(--first-color);
   margin-bottom: var(--mb-2);
 }
 
 .services__text {
-  font-size: var(--normal-font-size);
+  font-size: var(--smaller-font-size);
   color: var(--second-color);
 }
 
