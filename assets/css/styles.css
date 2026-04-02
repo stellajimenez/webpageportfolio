@@ -261,10 +261,17 @@ img {
 }
 
 /* ===== ADVISORY =====*/
-.advisory__container {
-  row-gap: 2rem;
+.advisory {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
   text-align: center;
 }
+
+.advisory__container {
+  max-width: 800px;
+}
+
 .advisory__subtitle {
   margin-bottom: var(--mb-2);
 }
