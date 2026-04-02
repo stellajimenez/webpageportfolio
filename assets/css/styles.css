@@ -445,6 +445,11 @@ footer__text {
     align-items: center;
     text-align: initial;
   }
+  .advisory__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+  }
   .skills__container {
     grid-template-columns: 0.7fr;
     justify-content: center;
